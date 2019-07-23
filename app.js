@@ -16,8 +16,6 @@ const ytdl = require('ytdl-core');
 const bot = new Client();
 const attachment = new Attachment('img/1553929397.gif'); // 변수 attachment를 생성하고 img 폴더안에 있는 이미지를 꺼내온다.
 
-// Youtube Api : AIzaSyB3TW495MnQLnmjNhGGwB7VZWMtUJBr3zMs
-
 bot.on('ready', () => {
   console.log(`${bot.user.tag} 로그인`);
 });
